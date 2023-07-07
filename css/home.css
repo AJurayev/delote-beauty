@@ -1,0 +1,227 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #111111;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 1296px;
+}
+/* ===============================HEADER====================== */
+.header {
+  min-height: 1038px;
+  background-image: url('../assets/images/bgc.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.title__block {
+  text-align: center;
+  padding-top: 250px;
+}
+.header__title {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  /* or 86px */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 290px;
+}
+.down__btn {
+  padding: 3px 0 2px 40px;
+  display: inline-block;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  /* white */
+  color: #FFFFFF;
+  position: relative;
+  transition: all .2s linear;
+}
+.down__btn::before {
+  content: '';
+  width: 20px;
+  height: 30px;
+  background-image: url('../assets/icons/down-btn.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.down__btn:hover {
+  color: #CDAA7D;
+}
+/* ===============================HEADER====================== */
+/* ===============================MAIN======================== */
+.main {
+  padding-top: 120px;
+}
+.text-block {
+  width: 856px;
+  min-height: 385px;
+  padding-top: 124px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+  text-align: center;
+  background-image: url('../assets/icons/11.svg');
+  background-repeat: no-repeat;
+  background-size: 80px 64px;
+  background-position: 388px 0;
+}
+.text {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 130%;
+  /* or 35px */
+  /* white */
+  color: #FFFFFF;
+}
+.ser-mb-one {
+  margin-bottom: 60px;
+}
+.service-card {
+  width: 416px;
+  height: 386px;
+  padding-top: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+.border {
+  position: absolute;
+  width: 396px;
+  height: 300px;
+  border: 1px solid #CDAA7D;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.service-card .img-fluid {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+}
+.service-title {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  /* identical to box height, or 36px */
+  /* white */
+  color: #FFFFFF;
+  position: relative;
+}
+.ser-mb-two {
+  margin-bottom: 150px;
+}
+.cosmetics {
+  margin-bottom: 168px;
+}
+.cos-item {
+  text-align: center;
+}
+/* ----------------------------------------------- */
+.our-jobs {
+  margin-bottom: 100px;
+}
+.our-jobs__title {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+.our-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 722px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.our-item {
+  list-style: none;
+}
+.our-link {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  transition: all .2s linear;
+  position: relative;
+}
+.our-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  background-color: #CDAA7D;
+  top: 26px;
+  left: 50%;
+  transition: all .2s ease;
+}
+.our-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  background-color: #CDAA7D;
+  top: 26px;
+  right: 50%;
+  transition: all .2s ease;
+}
+.our-link.active {
+  color: #CDAA7D;
+}
+.our-link.active.our-link::before,
+.our-link.active.our-link::after {
+  width: 50%;
+}
+.our-link:hover {
+  color: #CDAA7D;
+  transition: all .2s linear;
+}
+.our-link:hover.our-link::before,
+.our-link:hover.our-link::after {
+  width: 50%;
+}
+.cards-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cmb {
+  margin-bottom: 24px;
+}
+.card-item {
+  width: 416px;
+  height: 416px;
+}
+/* ===============================MAIN======================== */

@@ -1,0 +1,62 @@
+.main {
+  padding: 80px 0px 100px 0px;
+}
+.our-team__title {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+.team__mb {
+  margin-bottom: 60px;
+}
+.team-card {
+  width: 416px;
+  height: 595px;
+  padding-top: 20px;
+  padding-right: 16px;
+  position: relative;
+}
+.border {
+  position: absolute;
+  width: 396px;
+  height: 477px;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  /* accent */
+  border: 1px solid #CDAA7D;
+  z-index: 1;
+}
+.team-card .img-fluid {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 30px;
+}
+.name {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 130%;
+  /* identical to box height, or 35px */
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  }
+.proff {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  /* white */
+  color: #FFFFFF;
+}

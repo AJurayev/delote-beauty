@@ -1,0 +1,240 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0%;
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #111111;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 1296px;
+}
+/* ==========================HEADER============================ */
+.header {
+  padding-top: 30px;
+}
+.nav_section {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+.inst__nav {
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.inst__nav:hover {
+  color: #CDAA7D;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 358px;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  /* white */
+  color: #FFFFFF;
+  transition: all .2s linear;
+  position: relative;
+}
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  background-color: #CDAA7D;
+  top: 23px;
+  left: 50%;
+  transition: all .2s ease;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  background-color: #CDAA7D;
+  top: 23px;
+  right: 50%;
+  transition: all .2s ease;
+}
+.nav-link.active {
+  color: #CDAA7D;
+}
+.nav-link.active.nav-link::before,
+.nav-link.active.nav-link::after {
+  width: 50%;
+}
+.nav-link:hover {
+  color: #CDAA7D;
+  transition: all .2s linear;
+}
+.nav-link:hover.nav-link::before,
+.nav-link:hover.nav-link::after {
+  width: 50%;
+}
+.info_btn {
+  width: 40px;
+  height: 40px;
+  border-top: 2px solid #FFFFFF;
+  position: relative;
+  transition: all .2s linear;
+}
+.info_btn:after {
+  content: '';
+  width: 40px;
+  height: 1.5px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 10px;
+  left: -5px;
+  transition: all .2s linear;
+}
+.info_btn::before {
+  content: '';
+  width: 40px;
+  height: 1.5px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  transition: all .2s linear;
+}
+.info_btn:hover {
+  border-top-color: #CDAA7D;
+}
+.info_btn:hover.info_btn:after ,
+.info_btn:hover.info_btn::before {
+  background-color: #CDAA7D;
+}
+.offcanvas {
+  width: 475px !important;
+  height: 100% !important;
+  padding: 100px 0px 0px 50px;
+  background-color: #111111;
+  overflow-y: auto;
+}
+.btn-close {
+  width: 40px !important;
+  height: 40px !important;
+  color: white;
+  background: none !important;
+  padding: 0 !important;
+  text-align: center;
+  font-size: 38px;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+.btn-close .bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .2s linear;
+}
+.btn-close .bx:hover {
+  color: #CDAA7D;
+}
+.canvas-text {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  color: #FFFFFF;
+  margin-bottom: 80px;
+  max-width: 315px;
+}
+.can-title {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+.info {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.mb-info {
+  margin-bottom: 60px;
+}
+/* ==========================HEADER============================ */
+/* ==========================FOOTER============================ */
+.infooterBlock {
+  padding: 80px 0;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  display: flex; 
+  justify-content: space-between;
+}
+.footer-item-title {
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  /* white */
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+.item-infoes {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  /* white */
+  color: #FFFFFF;
+}
+.infoes-mb {
+  margin-bottom: 15px;
+}
+.copy {
+  padding: 30px 0;
+}
+.copy-text {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+/* ==========================FOOTER============================ */
